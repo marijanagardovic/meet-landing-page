@@ -399,13 +399,6 @@ h3 {
     .text-footer {
         text-align: center;
     }
-
-    .left-group img, 
-    .right-group img {
-    margin: 50px 50px;
-    max-width: 130px;
-    }
-
 }
 
 @media (max-width:750px) {
@@ -433,12 +426,6 @@ h3 {
     .images > img {
         width: 14rem;
         height: 13rem; 
-    }
-
-    .left-group img, 
-    .right-group img {
-    margin: 60px 60px;
-    max-width: 140px;
     }
 }
 
