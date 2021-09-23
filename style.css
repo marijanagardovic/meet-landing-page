@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@800&display=swap");
 :root{
-    --background-clr: #f2f2f2;
-    --ffamily:"Red Hat Display";
+    --background-clr: #fdfdfd;
+    --ffamily:'Red Hat Display';
     --title-clr:#28283d;
-    --header-text: #87879d;
+    --subheading-text: #87879d;
     --btn-download: #3f8b9e;
     --btn-download-hower: #8ecedf;
     --text-white:#fafafa;
     --text-clr-hover: #404040;
     --btn-what: #7449a7;
-    --btn-what-hover:#996fc9;
+    --btn-what-hover:#a17ace;
     --version-clr:#b0d7e2;
 }
 
@@ -26,8 +26,174 @@ body{
     font-family: var(--ffamily);
 }
 
-main{
-    margin: 0 auto;
-    height: auto;
+header {
+    text-align: center;
+    margin-top: 5rem;
 }
 
+.first-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-photo{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.left-group{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(3, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: -2vw;
+    padding-top: 3rem;
+    width: 35vw;
+}
+
+.right-group{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(3, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: -2vw;
+    padding-top: 3rem;
+    width: 35vw;
+}
+
+.left-group img, 
+.right-group img {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    margin: 20px auto;
+    max-width: 130px;
+}
+
+.profile-photo-2, .profile-photo-5 {
+    transform: translateY(-50%);
+}
+
+.profile-photo-8, .profile-photo-11 {
+    transform: translateY(-50%);
+}
+
+.profile-photo-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.profile-photo-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.profile-photo-3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.profile-photo-4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.profile-photo-5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.profile-photo-6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.profile-photo-7{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.profile-photo-8{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.profile-photo-9{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.profile-photo-10{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.profile-photo-11{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.profile-photo-12{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+/*TITTLE*/
+
+.middle-group{
+    position: relative;
+    text-align: center;
+    padding: 10rem 5rem;
+}
+
+.title{
+    font-size: 70px;
+    line-height: 62px;
+    margin-bottom: 1.5rem;
+    color: var(--title-clr);
+    text-align: center;
+}
+
+.subheading{
+    color: var(--subheading-text);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.btn-download{
+    text-decoration: none;
+    background-color: var(--btn-download);
+    color: var(--text-white);
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 25px 10px;
+}
+
+.btn-download:hover{
+    background-color: var(--btn-download-hower);
+    color: var(--text-clr-hover);
+}
+
+.btn-download > span{
+    color: var(--version-clr);
+}
+
+.btn-what{
+    text-decoration: none;
+    background-color: var(--btn-what);
+    color: var(--text-white);
+    border-radius: 25px;
+    font-size: 19px;
+    padding: 10px 22px;
+    margin: 25px 10px;
+}
+
+.btn-what:hover{
+    background-color: var(--btn-what-hover);
+    color: var(--text-clr-hover);
+}
+
+.line{
+    
+}
