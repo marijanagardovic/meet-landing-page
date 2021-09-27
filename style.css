@@ -157,7 +157,7 @@ p {
 }
 
 .title {
-    font-size: 70px;
+    font-size: 5rem;
     line-height: 62px;
     margin-bottom: 2.5rem;
     color: var(--title-clr);
@@ -168,6 +168,8 @@ p {
     color: var(--subheading-text);
     text-align: center;
     margin-bottom: 2.5rem;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .buttons{
@@ -391,22 +393,22 @@ h3 {
     }
 
     .first-part {
-         flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .middle-group {
-      width: 100%;
-      order: 3;
-      margin-top: 3.5rem;
+        width: 100%;
+        order: 3;
+        margin-top: 3.5rem;
     }
   
     .left-group {
-      width: 50%;
+        width: 50%;
     }
   
     .right-group {
-      width:50%;
-      order:2;
+        width:50%;
+        order:2;
     }
 }
 
@@ -430,8 +432,6 @@ h3 {
 }
 
 @media (max-width:750px) {
-  
-
     .btn-download{
         font-size: 15px;
         padding: 15px 13px;
