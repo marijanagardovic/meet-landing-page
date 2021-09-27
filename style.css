@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
 :root {
     --background-clr: #fdfdfd;
     --ffamily:'Red Hat Display';
@@ -26,11 +26,17 @@ body {
     background-color: var(--background-clr);
     height: 100%;
     font-family: var(--ffamily);
+    font-weight: 900;
 }
 
 header {
     text-align: center;
     margin-top: 5rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
 }
 
 /*FIRST PART*/
@@ -154,7 +160,7 @@ header {
 .title {
     font-size: 70px;
     line-height: 62px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     color: var(--title-clr);
     text-align: center;
 }
